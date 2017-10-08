@@ -1,0 +1,13 @@
+{ "name": "none",
+  "type": "ending",
+  "probability": 1,
+  "range": [51, 52],
+  "text": "Вы проиграли выборы. Вы не видите смысла больше жить и забиваете себя до смерти ложкой.",
+  "actions": [
+    "Прощай, жестокий мир!"
+  ],
+  "reactions": [
+    {}
+  ],
+  "conditions": {"max": {"jail_chance": 0.5, "win_chance": 0.8}}
+}

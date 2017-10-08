@@ -1,0 +1,13 @@
+{ "name": "jail",
+  "type": "ending",
+  "probability": 1,
+  "range": [51, 52],
+  "text": "В вас врывается отряд ОМОНа, теперь вы ответите за свои преступления.",
+  "actions": [
+    "Ой."
+  ],
+  "reactions": [
+    {}
+  ],
+  "conditions": {"min": {"jail_chance": 0.5}}
+}

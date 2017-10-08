@@ -1,0 +1,13 @@
+{ "name": "nash_muzhik",
+  "type": "main",
+  "probability": 0.6,
+  "range": [25, 48],
+  "text": "Рабочие залупостроительного завода восхищены вашим поеданием дошика.",
+  "actions": [
+    "Да, я такой же, как вы!"
+  ],
+  "reactions": [
+    {"win_chance": 0.8}
+  ],
+  "conditions": {"events": {"vodka": 3}}
+}

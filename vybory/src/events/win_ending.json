@@ -1,0 +1,13 @@
+{ "name": "win",
+  "type": "ending",
+  "probability": 1,
+  "range": [51, 52],
+  "text": "Вы победили. Добро пожаловать в новую Бурятскую Империю",
+  "actions": [
+    "Да начнётся кровавое правление!"
+  ],
+  "reactions": [
+    {}
+  ],
+  "conditions": {"min": {"win_chance": 0.8}}
+}

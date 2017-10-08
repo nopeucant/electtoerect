@@ -1,0 +1,13 @@
+{ "name": "hamon",
+  "type": "main",
+  "probability": 0.9,
+  "range": [25, 48],
+  "text": "Рабочие залупостроительного завода возмущены вашим поеданием хамона",
+  "actions": [
+    "Пошли в жопу, нищеброды!"
+  ],
+  "reactions": [
+    {"win_chance": -0.1}
+  ],
+  "conditions": {"events": {"vodka": 2}}
+}

@@ -1,8 +1,8 @@
 import json
 import os
 
-from src.events import Event
-from src.parameters import ParameterHolder
+from vybory.src.events import Event
+from vybory.src.parameters import ParameterHolder
 
 
 class Player(ParameterHolder):

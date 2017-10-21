@@ -1,6 +1,6 @@
 import time
 
-from src.player import Player
+from vybory.src.player import Player
 
 
 class Game(object):

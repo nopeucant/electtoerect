@@ -14,6 +14,7 @@ class Event(object):
         self.text = data.get('text', '')
         self.actions = data.get('actions', [])
         self.reactions = data.get('reactions', [])
+        self.action_conditions = data.get('action_conditions', [])
         self.conditions = data.get('conditions', {})
         self.recently_happened = False
         self.repeatable = data.get('repeatable', False)

@@ -16,9 +16,9 @@ class Player(ParameterHolder):
         self.read_events()
 
     def read_events(self):
-        dir = "events"
-        for filename in os.listdir(dir):
-            with open(os.path.join(dir, filename), 'rt') as file:
+        dire = "events_dir"
+        for filename in os.listdir(dire):
+            with open(os.path.join(dire, filename), 'rt') as file:
                 print(filename)
                 data = json.load(file)
                 self.events.append(Event(data))

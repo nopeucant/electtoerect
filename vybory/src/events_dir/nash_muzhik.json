@@ -9,5 +9,8 @@
   "reactions": [
     {"win_chance": 0.8}
   ],
+  "action_conditions": [
+    {}
+  ],
   "conditions": {"events": {"vodka": 3}}
 }
